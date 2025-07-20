@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+
+        <!--  Bul forma delinedi.Formanin tiykargi waziypasi paydalaniwshidan magliwmatti aladi hamde serverge jiberedi.  -->
+        <form action="/submit" method="post">
+            <!-- Bular inputlar hamde input turleri. -->
+            <input type="text" placeholder="Atiniz">
+            
+            <input type="email" placeholder="Email">
+            
+            <input type="password" placeholder="Parol">
+            
+            <input type="checkbox"> I Agree to the terms
+            
+            <input type="submit" value="Submit">
+            
+            <input type="radio" name="gender" value="male"> Erkek
+            <input type="radio" name="gender" value="female"> Ayel
+            
+            <input type="file">
+            
+            <input type="date">
+            
+            <!--  Bul text jaziw orini.  -->
+            <textarea rows="4" cols="50">Pikir jaziw</textarea>
+            <!--  Bul select   -->
+            <select>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>Fullstack</option>
+            </select>
+        </form>
+        
+        <!--  Bul tartiblenbegen list  -->
+        <ul>    <!--  unordered list  -->
+            
+            <li>HTML</li>   <!--  list item  -->
+            <li>CSS</li>   <!--  list item  -->
+            <li>JavaScript</li>   <!--  list item  -->
+        </ul>
+        
+        <!--  Bul tartiplengen list  -->
+        <ol>    <!--  ordered list  -->
+            
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+        </ol>
+
+        <!--  Bul ishpe ish kirgen list(Nested list)  -->
+        <ul>
+            <li>Fruits
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Cherry</li>
+                </ul>
+            </li>
+            <li>Vegetables
+                <ol>
+                    <li>Carrot</li>
+                    <li>Broccoli</li>
+                    <li>Spinach</li>
+                </ol>
+            </li>
+        </ul>    
+
+        <!--  Bul audio teg  -->
+        <audio controls>
+            <source src="Prateek Kuhad Bloom.m4a" type="audio/mpeg">
+        </audio>
+        
+        <br><br>
+        
+        <!--  Bul video teg  -->
+        <video controls>
+            <source src="EpYdhQEAAAA.mp4" type="video/mp4">
+            <!-- autoplay, muted, loop, poster, preload bular video tegine tiyisli atributlar-->
+        </video>
+        
+        <br><br>
+
+        <!--  Bul audio,videolardi frame arqali koriw  -->
+        <iframe width="775" height="436" src="https://www.youtube.com/embed/v2Hft6hUyHU" title="Stunning Swiss Nature at Lake Chapfensee | Summer Relaxation with Birds Chirping | 10 Min of Relax" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!--  Keste (table) - magliwmatlardi horizontal ham vertical kesteler boyinsha tartiplewde isletemiz  -->
+        <table border="1">
+            <tr>
+                <th>Ati:</th>   <!--  th (title head) - magliwmatlardi vertical boyinsha atamalaw -->
+                <th>Familyasi:</th>
+                <th>Jasi:</th>
+            </tr>
+            <tr>
+                <td>Palenshe</td>   <!--  td (table data) - tiykargi magliwmatlar.  -->
+                <td>Tolensheyev</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
